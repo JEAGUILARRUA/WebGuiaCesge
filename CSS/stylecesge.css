@@ -1,1 +1,205 @@
+*{margin: 0;
+    padding: 0;
+}
 
+/*  Apertura nosotros para pagina NOSOTROS */
+
+.nosotrosbody{background-color:rgb(255, 255, 255);
+    position: relative;
+
+}
+
+.botonmenu{display: block;
+           width:80px;
+           height: 30px;
+           background-color: green;
+           border-radius: 10px;
+           padding: 10px 20px;
+           display: flex;
+           margin-left: auto;
+           margin-right: auto;
+           margin-top: 20px;
+           font-family: sans-serif; 
+           font-size: 25px;        
+}
+.botonmenu:hover{
+    background-color: orange;
+    box-shadow: 0px 15px 37px #000000; 
+}
+
+.boxnosotros{width: 1200px;
+             height: 400px;
+             background-color: green;
+             margin-top: 50px;
+             margin-left: 80px;
+             border-radius: 50px;
+             box-shadow: 3px 3px 3px 3px #4e4e4e;
+}
+
+.boxnosotros:hover{
+    transform: scale(1.0);
+    box-shadow: 0px 15px 37px #000000;  
+}
+
+.txtboxnosotros{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+              font-size: 35px;
+              color: rgb(255, 255, 255);
+              text-align: justify;
+              margin: 30px;                      
+}
+
+.titleBoxnosotros{font-family:sans-serif;
+                 font-size: 40px;
+                 color:rgb(255, 255, 255);
+                 text-align:center;
+                 padding-top:40px;
+                                
+}
+
+.nosotros{font-family: sans-serif;
+         font-size: 35px;
+         text-align: right;
+         margin-right: 180px;
+         color: green;
+         margin-top: 50px;
+
+}
+.sen1 img{width: 150px;
+    margin-left: 500px;
+
+}
+.boxmision{width: 600px;
+    height: 1000px;
+    background-color: green;
+    margin-top: 50px;
+    margin-left: 60px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px 3px #4e4e4e;
+}
+.boxmision:hover{
+    transform: scale(1.0);
+    box-shadow: 0px 15px 37px #000000;  
+}
+
+.txtboxmision{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+              font-size: 35px;
+              color: rgb(255, 255, 255);
+              text-align: justify;
+              margin: 30px;                      
+}
+
+.titleBoxmision{font-family:sans-serif;
+                 font-size: 40px;
+                 color:rgb(255, 255, 255);
+                 text-align:center;
+                 padding-top:40px;
+                                
+}
+
+.mision{font-family: sans-serif;
+         font-size: 35px;
+         text-align: right;
+         margin-right: 180px;
+         color: antiquewhite;
+         margin-top: 50px;
+
+}
+.sen img{width: 500px;
+    margin-left: 50px;
+    border-radius: 10px 10px 10px 10px ;
+    box-shadow: 5px 5px 5px 5px  #222121;
+}
+.boxvision{width: 600px;
+    height: 1000px;
+    background-color: green;
+    margin-top: -1000px;
+    margin-left: 700px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px 3px #4e4e4e;
+}
+.boxvision:hover{
+    transform: scale(1.0);
+    box-shadow: 0px 15px 37px #000000;  
+}
+
+.txtboxvision{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+              font-size: 35px;
+              color: rgb(255, 255, 255);
+              text-align: justify;
+              margin: 30px;                      
+}
+
+.titleBoxvision{font-family:sans-serif;
+                 font-size: 40px;
+                 color:rgb(255, 255, 255);
+                 text-align:center;
+                 padding-top:40px;
+                                
+}
+
+.vision{font-family: sans-serif;
+         font-size: 35px;
+         text-align: right;
+         margin-right: 180px;
+         color: antiquewhite;
+         margin-top: 50px;
+
+}
+.boxubicacion{width: 1000px;
+    height: 500px;
+    background-color: green;
+    margin-top: 50px;
+    margin-left: 200px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px 3px #4e4e4e;
+}
+
+.boxubicacion:hover{
+transform: scale(1.0);
+box-shadow: 0px 15px 37px #000000;  
+}
+
+.txtboxubicacion{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 25px;
+     color: rgb(255, 255, 255);
+     text-align: justify;
+     margin: 30px;                      
+}
+
+.titleBoxubicacion{font-family:sans-serif;
+        font-size: 40px;
+        color:rgb(255, 255, 255);
+        text-align:center;
+        padding-top:40px;
+                       
+}
+
+.map{
+   margin-left: 200px;
+}
+.map iframe{
+    border-radius: 10px 10px 10px 10px;
+    box-shadow:  5px 5px 5px 5px rgb(68, 68, 68);
+}
+.videoEnfoque{border-radius: 30px;
+            margin-top: 30px;
+            margin-left: 200px;
+}
+.videoEnfoque iframe{
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 3px 3px #4e4e4e;
+}
+
+.videoEnfoque iframe:hover{
+    transform: scale(1.0);
+    box-shadow: 0px 15px 37px #000000;  
+}
+.pieVideoEnfoque{color: aliceblue;
+                 margin-bottom: 50px;
+                 font-size: 20px;
+                
+}
+
+/* cierre estilo de pagina Nostros */
+
+/* ------------------------------------------------------------------------------- */
