@@ -79,7 +79,7 @@ a{text-decoration: none;
 .liIndex{width:370px;
    height:50px;
    border-radius:15px;
-   background-color: rgb(0, 133, 11);
+   background-color: #00850b;
    padding-top:20px;
    text-align: center;
    margin-left: 20px;   
@@ -90,8 +90,47 @@ a{text-decoration: none;
     background-color: #c76714;   
 }
 
+.bloque1{position: relative;
+        display: flex;
+
+}
+
+h6{text-align: center;
+    margin: 20px;
+
+}
+
+.novedad1{font-family: sans-serif;
+          font-size: 19px;
+          margin: 30px;
+
+}
+
+.junta{margin-left: 140px;
+       margin-top: 30px;
+       border-radius: 20px;
+}
+
+.contIndex1{margin-top: 60px;
+    background-color:#00850b;
+    color:white;
+    margin-left: 50px;
+    width:680px;
+    height: 850px;
+    font-family: sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 35px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.contIndex1:hover{
+    transform: scale(1.0);
+    box-shadow: 0px 15px 37px #545454;  
+}
+
 .contIndex{margin-top: 60px;
-           background-color: #000000;
+           background-color:#00850b;
            color:white;
            margin: 50px;
            height: 450px;
@@ -104,7 +143,7 @@ a{text-decoration: none;
 
 .contIndex:hover{
     transform: scale(1.0);
-    box-shadow: 0px 15px 37px #faf8f8;  
+    box-shadow: 0px 15px 37px #545454;  
 }
 
 .titleIntro{text-align: center;
