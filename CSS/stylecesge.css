@@ -19,15 +19,18 @@
            margin-left: auto;
            margin-right: auto;
            margin-top: 20px;
-           font-family: sans-serif; 
-           font-size: 25px;        
+           font-family:sans-serif; 
+           font-size: 25px;
+           text-decoration: none;  
+           color: #f9f4f4; 
+               
 }
 .botonmenu:hover{
-    background-color: orange;
+    background-color: rgb(203, 135, 9);
     box-shadow: 0px 15px 37px #000000; 
 }
 
-.boxnosotros{width: 1200px;
+.boxnosotros{width:1350px;
              height: 400px;
              background-color: green;
              margin-top: 50px;
@@ -59,20 +62,20 @@
 .nosotros{font-family: sans-serif;
          font-size: 35px;
          text-align: right;
-         margin-right: 180px;
+         margin-right: 110px;
          color: green;
          margin-top: 50px;
 
 }
 .sen1 img{width: 150px;
-    margin-left: 500px;
+    margin-left: 550px;
 
 }
-.boxmision{width: 600px;
+.boxmision{width: 650px;
     height: 1000px;
     background-color: green;
     margin-top: 50px;
-    margin-left: 60px;
+    margin-left: 90px;
     border-radius: 50px;
     box-shadow: 3px 3px 3px 3px #4e4e4e;
 }
@@ -105,15 +108,15 @@
 
 }
 .sen img{width: 500px;
-    margin-left: 50px;
+    margin-left: 70px;
     border-radius: 10px 10px 10px 10px ;
     box-shadow: 5px 5px 5px 5px  #222121;
 }
-.boxvision{width: 600px;
+.boxvision{width: 650px;
     height: 1000px;
     background-color: green;
     margin-top: -1000px;
-    margin-left: 700px;
+    margin-left: 780px;
     border-radius: 50px;
     box-shadow: 3px 3px 3px 3px #4e4e4e;
 }
@@ -145,13 +148,14 @@
          margin-top: 50px;
 
 }
-.boxubicacion{width: 1000px;
+.boxubicacion{width: 1200px;
     height: 500px;
     background-color: green;
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left: 150px;
     border-radius: 50px;
     box-shadow: 3px 3px 3px 3px #4e4e4e;
+    margin-bottom: 100px;
 }
 
 .boxubicacion:hover{
@@ -175,7 +179,7 @@ box-shadow: 0px 15px 37px #000000;
 }
 
 .map{
-   margin-left: 200px;
+   margin-left: 300px;
 }
 .map iframe{
     border-radius: 10px 10px 10px 10px;
@@ -183,11 +187,13 @@ box-shadow: 0px 15px 37px #000000;
 }
 .videoEnfoque{border-radius: 30px;
             margin-top: 30px;
-            margin-left: 200px;
+            margin-left: 250px;
 }
 .videoEnfoque iframe{
     border-radius: 10px 10px 10px 10px;
     box-shadow: 3px 3px 3px 3px #4e4e4e;
+    
+    
 }
 
 .videoEnfoque iframe:hover{
