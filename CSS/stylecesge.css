@@ -1,4 +1,412 @@
+
+*{margin: 0;
+    padding: 0;
+}
+
+
+/* apertura estilo para index */
+
+.barco{margin-left: 20px;
+
+}
+
+.socialNav{margin-left:200px;
+    position: relative;                        
+}
+
+.ilSocial{width:350px;
+}
+
+.navegadorSocial{margin: 0px 25px;
+}
+
+i:hover{
+    transform: scale(1.2);   
+}
+
+.indexnavsocial{margin-left: 30px;
+}
+
+.pieSocialNav{color: rgb(0, 0, 0);
+              font-family: sans-serif;
+              font-size: 20px;
+              margin-top: 20px;
+              text-align: center;
+
+}
+
+.bodyIndex{background-image: url(2149901782.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+}
+
+.bannerindex{width: 100%;
+             height: 250px;
+             background-color: #ffffff;
+             box-shadow: 5px 5px 5px 5px  #474747;
+             display: flex;   
+}
+
+.titulos{margin-top: 80px;
+        position: relative;
+        margin-left: 50px;
+
+}
+
+.title{font-family: sans-serif;
+       color: rgb(0, 0, 0);
+       font-size: 50px;
+}
+
+.Slogan{color: rgb(6, 166, 81);
+       font-size: 35px;
+}
+
+ul{display: flex;
+   list-style: none;
+   justify-content: center;
+   margin-left: -30px;
+   margin-top: 30px;
+      
+}
+
+a{text-decoration: none;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+
+}
+
+.liIndex{width:370px;
+   height:50px;
+   border-radius:15px;
+   background-color: #00850b;
+   padding-top:20px;
+   text-align: center;
+   margin-left: 20px;   
+}
+
+.liIndex:hover{
+    transform: scale(1.1);
+    background-color: #c76714;   
+}
+
+.bloque1{position: relative;
+        display: flex;
+
+}
+
+h6{text-align: center;
+    margin: 20px;
+
+}
+
+.novedad1{font-family: sans-serif;
+          font-size: 19px;
+          margin: 30px;
+
+}
+
+.junta{margin-left: 140px;
+       margin-top: 30px;
+       border-radius: 20px;
+}
+
+.contIndex1{margin-top: 60px;
+    background-color:#00850b;
+    color:white;
+    margin-left: 50px;
+    width:680px;
+    height: 850px;
+    font-family: sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 35px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.contIndex1:hover{
+    transform: scale(1.0);
+    box-shadow: 0px 15px 37px #545454;  
+}
+
+.bloque2{position: relative;
+         display: flex;
+}
+
+.contIndex{margin-top: 60px;
+           background-color:#00850b;
+           color:white;
+           margin: 50px;
+           height: 510px;
+           font-family: sans-serif;
+           padding-top: 40px;
+           padding-bottom: 40px;
+           font-size: 35px;
+           border-radius: 20px 20px 0px 0px ;
+           display: flex;
+}
+
+.contIndex:hover{
+    transform: scale(1.0);
+    box-shadow: 0px 15px 37px #545454;  
+}
+
+.titleIntro{text-align: center;
+}
+
+.imgpasantias{margin: 15px;
+
+}
+
+.imgpasantias:hover{ transform: scale(1.1);
+    
+}
+
+.titleIntro2{text-align: center;
+            font-family: sans-serif;
+            background-color: #ffffff;
+            color: #00850b;
+}
+
+h5{text-align: center;}
+
+.vocerosMeet{margin-left: 40px;
+
+}
+
+.textIntro{text-align: justify;
+          margin: 30px;
+          font-size: 22px;
+
+}
+
+footer{width: 100%;
+    height: 120px;
+    background-color: #000203;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+
+}
+
+.textFoot{font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 200px;
+    
+}
+
+
+
+/*  Apertura nosotros para pagina NOSOTROS */
+
+.nosotrosbody{background-color:rgb(255, 255, 255);
+    position: relative;
+
+}
+
+.botonmenu{display: block;
+           width:80px;
+           height: 30px;
+           background-color: green;
+           border-radius: 10px;
+           padding: 10px 20px;
+           display: flex;
+           margin-left: auto;
+           margin-right: auto;
+           margin-top: 20px;
+           font-family:sans-serif; 
+           font-size: 25px;
+           text-decoration: none;  
+           color: #f9f4f4; 
+               
+}
+.botonmenu:hover{
+    background-color: rgb(203, 135, 9);
+    box-shadow: 0px 15px 37px #000000; 
+}
+
+.boxnosotros{width:1350px;
+             height: 400px;
+             background-color: green;
+             margin-top: 50px;
+             margin-left: 80px;
+             border-radius: 50px;
+             box-shadow: 3px 3px 3px 3px #4e4e4e;
+}
+
+.boxnosotros:hover{
+    transform: scale(1.0);
+    box-shadow: 0px 15px 37px #000000;  
+}
+
+.txtboxnosotros{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+              font-size: 35px;
+              color: rgb(255, 255, 255);
+              text-align: justify;
+              margin: 30px;                      
+}
+
+.titleBoxnosotros{font-family:sans-serif;
+                 font-size: 40px;
+                 color:rgb(255, 255, 255);
+                 text-align:center;
+                 padding-top:40px;
+                                
+}
+
+.nosotros{font-family: sans-serif;
+         font-size: 35px;
+         text-align: right;
+         margin-right: 110px;
+         color: green;
+         margin-top: 50px;
+
+}
+.sen1 img{width: 150px;
+    margin-left: 550px;
+
+}
+.boxmision{width: 650px;
+    height: 1000px;
+    background-color: green;
+    margin-top: 50px;
+    margin-left: 90px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px 3px #4e4e4e;
+}
+.boxmision:hover{
+    transform: scale(1.0);
+    box-shadow: 0px 15px 37px #000000;  
+}
+
+.txtboxmision{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+              font-size: 35px;
+              color: rgb(255, 255, 255);
+              text-align: justify;
+              margin: 30px;                      
+}
+
+.titleBoxmision{font-family:sans-serif;
+                 font-size: 40px;
+                 color:rgb(255, 255, 255);
+                 text-align:center;
+                 padding-top:40px;
+                                
+}
+
+.mision{font-family: sans-serif;
+         font-size: 35px;
+         text-align: right;
+         margin-right: 180px;
+         color: antiquewhite;
+         margin-top: 50px;
+
+}
+.sen img{width: 500px;
+    margin-left: 70px;
+    border-radius: 10px 10px 10px 10px ;
+    box-shadow: 5px 5px 5px 5px  #222121;
+}
+.boxvision{width: 650px;
+    height: 1000px;
+    background-color: green;
+    margin-top: -1000px;
+    margin-left: 780px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px 3px #4e4e4e;
+}
+.boxvision:hover{
+    transform: scale(1.0);
+    box-shadow: 0px 15px 37px #000000;  
+}
+
+.txtboxvision{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+              font-size: 35px;
+              color: rgb(255, 255, 255);
+              text-align: justify;
+              margin: 30px;                      
+}
+
+.titleBoxvision{font-family:sans-serif;
+                 font-size: 40px;
+                 color:rgb(255, 255, 255);
+                 text-align:center;
+                 padding-top:40px;
+                                
+}
+
+.vision{font-family: sans-serif;
+         font-size: 35px;
+         text-align: right;
+         margin-right: 180px;
+         color: antiquewhite;
+         margin-top: 50px;
+
+}
+.boxubicacion{width: 1200px;
+    height: 500px;
+    background-color: green;
+    margin-top: 50px;
+    margin-left: 150px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px 3px #4e4e4e;
+    margin-bottom: 100px;
+}
+
+.boxubicacion:hover{
+transform: scale(1.0);
+box-shadow: 0px 15px 37px #000000;  
+}
+
+.txtboxubicacion{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 25px;
+     color: rgb(255, 255, 255);
+     text-align: justify;
+     margin: 30px;                      
+}
+
+.titleBoxubicacion{font-family:sans-serif;
+        font-size: 40px;
+        color:rgb(255, 255, 255);
+        text-align:center;
+        padding-top:40px;
+                       
+}
+
+.map{
+   margin-left: 300px;
+}
+.map iframe{
+    border-radius: 10px 10px 10px 10px;
+    box-shadow:  5px 5px 5px 5px rgb(68, 68, 68);
+}
+.videoEnfoque{border-radius: 30px;
+            margin-top: 30px;
+            margin-left: 250px;
+}
+.videoEnfoque iframe{
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 3px 3px #4e4e4e;
+    
+    
+}
+
+.videoEnfoque iframe:hover{
+    transform: scale(1.0);
+    box-shadow: 0px 15px 37px #000000;  
+}
+.pieVideoEnfoque{color: aliceblue;
+                 margin-bottom: 50px;
+                 font-size: 20px;
+                
+}
+
+/* cierre estilo de pagina Nostros */
+
 /*apertura estilo para ofertas*/
+=======
 
 body.ofertasena {
     font-family: sans-serif;
