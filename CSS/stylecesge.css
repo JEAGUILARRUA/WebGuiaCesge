@@ -406,9 +406,8 @@ box-shadow: 0px 15px 37px #000000;
 /* cierre estilo de pagina Nostros */
 
 /*apertura estilo para ofertas*/
-=======
 
-body.ofertasena {
+.ofertasena {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
@@ -423,7 +422,7 @@ body.ofertasena {
     text-align: center;
 }
 
-main {
+.senaoferta {
     display: flex;
     flex: 1;
     justify-content: center;
@@ -438,12 +437,12 @@ main {
     gap: 20px;
 }
 
-section {
+.seccof {
     border: 1px solid #ccc;
     padding: 20px;
 }
 
-section img {
+.imgofer{
     max-width: 100%;
     height: auto;
     display: block;
@@ -451,13 +450,18 @@ section img {
 }
 
 aside {
-    width: 300px;
+
+    width: 400px;
     padding: 20px;
     background-color: #f0f0f0;
     margin-left: 20px;
 }
 
 aside ul {
+    margin-left: 5px;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
     list-style: none;
     padding: 0;
 }
@@ -487,22 +491,28 @@ aside h2{
 
 aside li a {
     text-decoration: none;
-    color: #1e9228;
+    color: #e2f0e3;
 }
 
-footer {
+aside li{
+    background-color: #474747;
+    margin-top: 2px;
+}
+
+.futerofertas {
     background-color: #0ae01c;
     color: #fff; 
     padding: 20px;
     text-align: center; 
 }
 
-.textFoot {
+.footext {
     font-size: 14px;
     line-height: 1.5;
+
 }
 
-main section p {
+.toferta {
     transition: color 0.3s ease;
   }
 
