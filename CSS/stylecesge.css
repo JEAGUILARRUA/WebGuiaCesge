@@ -510,9 +510,18 @@ aside li{
     margin-top: 2px;
 }
 
+aside li:hover{
+    transform: scale(1.01); 
+    box-shadow: 1px 1px 1px 1px #4e4e4e;
+}
 .video-iframe {
     border-radius: 15px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-iframe:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 15px 37px #545454;
 }
 
 .futerofertas {
@@ -528,8 +537,13 @@ aside li{
 
 }
 
-.toferta {
+.toferta{
+    color: #1e9228;
     transition: color 0.3s ease;
-  }
+}
+
+.toferta:hover {
+    color: #0ae01c;
+}
 
 /*cierre estilo ofertas*/
