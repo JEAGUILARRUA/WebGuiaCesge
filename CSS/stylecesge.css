@@ -453,12 +453,19 @@ box-shadow: 0px 15px 37px #000000;
     margin: 10px auto 0;
 }
 
-aside {
+.mas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 
-    width: 400px;
+aside {
+    align-content: center;
+    align-items: center;
     padding: 20px;
     background-color: #f0f0f0;
-    margin-left: 20px;
 }
 
 aside ul {
@@ -478,11 +485,11 @@ aside ul a:hover{
     color: #0ae01c;
 }
 
-main section h6 a:hover {
+main section p a:hover {
     color: green;
 }
 
-main h6 a{
+main p a{
     font-size: 20px;
     text-decoration: none;
     color: #313332;
@@ -501,6 +508,11 @@ aside li a {
 aside li{
     background-color: #474747;
     margin-top: 2px;
+}
+
+.video-iframe {
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .futerofertas {
