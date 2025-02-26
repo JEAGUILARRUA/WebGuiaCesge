@@ -474,11 +474,11 @@ aside ul a:hover{
     color: #0ae01c;
 }
 
-main section p a:hover {
+main section h6 a:hover {
     color: green;
 }
 
-main p a{
+main h6 a{
     font-size: 20px;
     text-decoration: none;
     color: #313332;
