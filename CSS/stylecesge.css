@@ -201,6 +201,10 @@ footer{width: 100%;
 
 /*  Apertura nosotros para pagina NOSOTROS */
 
+.encabezado img{ width: 1499px;
+    height: 200px;   
+}
+
 .nosotrosbody{background-color:rgb(255, 255, 255);
     position: relative;
 
