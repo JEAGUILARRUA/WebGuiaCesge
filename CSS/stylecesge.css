@@ -4,8 +4,12 @@
 
 /*  Apertura nosotros para pagina NOSOTROS */
 
-.encabezado img{ width: 1499px;
+.encabezado img{ width: 1300px;
     height: 200px;   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
 }
 
 .nosotrosbody{background-color:rgb(255, 255, 255);
