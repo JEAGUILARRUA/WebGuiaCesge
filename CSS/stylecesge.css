@@ -527,20 +527,6 @@ aside li:hover{
     box-shadow: 0px 15px 37px #545454;
 }
 
-.futerofertas {
-    background-color: #0ae01c;
-    color: #fff; 
-    padding: 20px;
-    text-align: center; 
-}
-
-.footext {
-    font-size: 18px;
-    line-height: 1.5;
-   
-
-}
-
 .toferta{
     color: #1e9228;
     transition: color 0.3s ease;
